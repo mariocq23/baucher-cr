@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\baucher-cr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|c:\\git\\baucher-cr\\baucher-cr\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|solutionrelative:baucher-cr\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|c:\\git\\baucher-cr\\baucher-cr\\controladores\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|solutionrelative:baucher-cr\\controladores\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|c:\\git\\baucher-cr\\data\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|solutionrelative:data\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|c:\\git\\baucher-cr\\baucher-cr\\controladores\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|solutionrelative:baucher-cr\\controladores\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|c:\\git\\baucher-cr\\baucher-cr\\controladores\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|solutionrelative:baucher-cr\\controladores\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|c:\\git\\baucher-cr\\baucher-cr\\controladores\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|solutionrelative:baucher-cr\\controladores\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|c:\\git\\baucher-cr\\context\\empleados\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|solutionrelative:context\\empleados\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|c:\\git\\baucher-cr\\data\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|solutionrelative:data\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|c:\\git\\baucher-cr\\context\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|solutionrelative:context\\productos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|c:\\git\\baucher-cr\\baucher-cr\\databaseexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|solutionrelative:baucher-cr\\databaseexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|c:\\git\\baucher-cr\\data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|solutionrelative:data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|c:\\git\\baucher-cr\\context\\clientes\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|solutionrelative:context\\clientes\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|c:\\git\\baucher-cr\\data\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|solutionrelative:data\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|c:\\git\\baucher-cr\\baucher-cr\\controladores\\ordenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|solutionrelative:baucher-cr\\controladores\\ordenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|c:\\git\\baucher-cr\\data\\ordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A220F74A-325F-4464-B010-42C5C8A930D1}|data\\data.csproj|solutionrelative:data\\ordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|c:\\git\\baucher-cr\\baucher-cr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44056B4-15FA-4321-9AD7-26AFB3FECB70}|baucher-cr\\baucher-api.csproj|solutionrelative:baucher-cr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|c:\\git\\baucher-cr\\context\\context.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|solutionrelative:context\\context.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|c:\\git\\baucher-cr\\context\\facturas\\solicitudcreacionfacturaorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257B574D-3126-423B-B1DC-693EFB115E08}|context\\context.csproj|solutionrelative:context\\facturas\\solicitudcreacionfacturaorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseExamples.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\baucher-cr\\DatabaseExamples.cs",
+              "RelativeDocumentMoniker": "baucher-cr\\DatabaseExamples.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\baucher-cr\\DatabaseExamples.cs",
+              "RelativeToolTip": "baucher-cr\\DatabaseExamples.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:59:50.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\data\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "data\\ClienteRepository.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\data\\ClienteRepository.cs",
+              "RelativeToolTip": "data\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:25:41.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\context\\clientes\\Cliente.cs",
+              "RelativeDocumentMoniker": "context\\clientes\\Cliente.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\context\\clientes\\Cliente.cs",
+              "RelativeToolTip": "context\\clientes\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:24:29.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\ProductosController.cs",
+              "RelativeDocumentMoniker": "baucher-cr\\controladores\\ProductosController.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\ProductosController.cs",
+              "RelativeToolTip": "baucher-cr\\controladores\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:23:35.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "baucher-cr\\controladores\\EmpleadosController.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\EmpleadosController.cs",
+              "RelativeToolTip": "baucher-cr\\controladores\\EmpleadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:23:26.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\ClientesController.cs",
+              "RelativeDocumentMoniker": "baucher-cr\\controladores\\ClientesController.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\ClientesController.cs",
+              "RelativeToolTip": "baucher-cr\\controladores\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:22:59.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrdenesController.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\OrdenesController.cs",
+              "RelativeDocumentMoniker": "baucher-cr\\controladores\\OrdenesController.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\OrdenesController.cs",
+              "RelativeToolTip": "baucher-cr\\controladores\\OrdenesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:20:39.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\FacturasController.cs",
+              "RelativeDocumentMoniker": "baucher-cr\\controladores\\FacturasController.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\baucher-cr\\controladores\\FacturasController.cs",
+              "RelativeToolTip": "baucher-cr\\controladores\\FacturasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:20:34.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\baucher-cr\\Startup.cs",
+              "RelativeDocumentMoniker": "baucher-cr\\Startup.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\baucher-cr\\Startup.cs",
+              "RelativeToolTip": "baucher-cr\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:16:33.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\baucher-cr\\Program.cs",
+              "RelativeDocumentMoniker": "baucher-cr\\Program.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\baucher-cr\\Program.cs",
+              "RelativeToolTip": "baucher-cr\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:16:31.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\data\\EmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "data\\EmpleadoRepository.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\data\\EmpleadoRepository.cs",
+              "RelativeToolTip": "data\\EmpleadoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:15:57.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\data\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "data\\ProductoRepository.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\data\\ProductoRepository.cs",
+              "RelativeToolTip": "data\\ProductoRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:15:38.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\context\\productos\\Producto.cs",
+              "RelativeDocumentMoniker": "context\\productos\\Producto.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\context\\productos\\Producto.cs",
+              "RelativeToolTip": "context\\productos\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:15:00.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\context\\empleados\\Empleado.cs",
+              "RelativeDocumentMoniker": "context\\empleados\\Empleado.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\context\\empleados\\Empleado.cs",
+              "RelativeToolTip": "context\\empleados\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:14:35.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "context",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\context\\context.csproj",
+              "RelativeDocumentMoniker": "context\\context.csproj",
+              "ToolTip": "C:\\git\\baucher-cr\\context\\context.csproj",
+              "RelativeToolTip": "context\\context.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-20T06:45:29.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdenRepository.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\data\\OrdenRepository.cs",
+              "RelativeDocumentMoniker": "data\\OrdenRepository.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\data\\OrdenRepository.cs",
+              "RelativeToolTip": "data\\OrdenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:12:26.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SolicitudCreacionFacturaOrden.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\context\\facturas\\SolicitudCreacionFacturaOrden.cs",
+              "RelativeDocumentMoniker": "context\\facturas\\SolicitudCreacionFacturaOrden.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\context\\facturas\\SolicitudCreacionFacturaOrden.cs",
+              "RelativeToolTip": "context\\facturas\\SolicitudCreacionFacturaOrden.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:11:38.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\git\\baucher-cr\\data\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "data\\FacturaRepository.cs",
+              "ToolTip": "C:\\git\\baucher-cr\\data\\FacturaRepository.cs",
+              "RelativeToolTip": "data\\FacturaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:10:23.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

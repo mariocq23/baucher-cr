@@ -17,6 +17,9 @@ namespace baucher_api {
             services.AddControllers();
             services.AddSingleton<FacturaRepository>(); // Register the repository as a singleton
             services.AddSingleton<OrdenRepository>(); // Register the repository as a singleton
+            services.AddSingleton<ClienteRepository>(); // Register the repository as a singleton
+            services.AddSingleton<EmpleadoRepository>(); // Register the repository as a singleton
+            services.AddSingleton<ProductoRepository>(); // Register the repository as a singleton
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Baucher API", Version = "v1" });

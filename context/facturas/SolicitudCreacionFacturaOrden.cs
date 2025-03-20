@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace context.ordenes
+namespace context.facturas
 {
     public class SolicitudCreacionFacturaOrden
     {
