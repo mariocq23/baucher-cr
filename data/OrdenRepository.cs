@@ -1,4 +1,6 @@
-﻿namespace data
+﻿using context.ordenes;
+
+namespace data
 {
     public class OrdenRepository
     {

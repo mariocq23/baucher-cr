@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\context\context.csproj" />
+    <ProjectReference Include="..\data\data.csproj" />
   </ItemGroup>
 
 </Project>
