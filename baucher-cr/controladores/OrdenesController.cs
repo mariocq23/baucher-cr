@@ -1,6 +1,7 @@
 using context.facturas;
 using context.ordenes;
 using data;
+using data.interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,11 @@ namespace baucher_api.controladores
     public class OrdenesController : ControllerBase
     {
         // In a real application, you would use a database.
-        private readonly OrdenRepository _ordenRepository;
-        private readonly FacturaRepository _facturaRepository;
+        private readonly IOrdenRepository _ordenRepository;
+        private readonly IFacturaRepository _facturaRepository;
 
 
-        public OrdenesController(OrdenRepository ordenRepository, FacturaRepository facturaRepository)
+        public OrdenesController(IOrdenRepository ordenRepository, IFacturaRepository facturaRepository)
         {
             _ordenRepository = ordenRepository;
             _facturaRepository = facturaRepository;

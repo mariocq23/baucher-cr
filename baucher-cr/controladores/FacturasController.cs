@@ -1,5 +1,6 @@
 using context.facturas;
 using data;
+using data.interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -7,9 +8,9 @@ using System.Collections.Generic;
 [Route("api/cuentas/{idCuenta}/facturas")]
 public class FacturasController : ControllerBase
 {
-    private readonly FacturaRepository _facturaRepository;
+    private readonly IFacturaRepository _facturaRepository;
 
-    public FacturasController(FacturaRepository facturaRepository)
+    public FacturasController(IFacturaRepository facturaRepository)
     {
         _facturaRepository = facturaRepository;
     }

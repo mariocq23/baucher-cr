@@ -3,39 +3,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using context.clientes;
 using context.cuentas;
 using context.facturas;
+using data.interfaces;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace data
 {
-    public class FacturaRepository
+    public class FacturaRepository : IFacturaRepository
     {
         private static int _nextId = 1;
         private static int _nextItemId = 1;
-        IEnumerable<Factura> _facturas;
         IMongoCollection<Factura>? _collection;
         public FacturaRepository()
         {
             var connectionString = "mongodb://localhost:27017";
             var client = new MongoClient(connectionString);
             var database = client.GetDatabase("mydatabase");
-            var collection = database.GetCollection<Factura>("facturas");
-            var filter = Builders<Factura>.Filter.Empty;
-            var cursor = collection.Find(filter);
-            _collection = collection;
-            _facturas = collection.AsQueryable();
+            _collection = database.GetCollection<Factura>("facturas");
         }
 
         public IEnumerable<Factura> GetAll()
         {
-            return _facturas;
+            return _collection.AsQueryable();
         }
 
         public Factura GetById(int id)
         {
-            return _facturas.FirstOrDefault(b => b.Id == id);
+            return _collection.AsQueryable().FirstOrDefault(b => b.Id == id);
         }
 
         public void Add(Factura bill)
@@ -61,7 +58,7 @@ namespace data
 
         public void AddItem(int billId, FacturaDetalle item)
         {
-            var bill = _facturas.FirstOrDefault(b => b.Id == billId);
+            var bill = _collection.AsQueryable().FirstOrDefault(b => b.Id == billId);
             if (bill != null)
             {
                 item.Id = _nextItemId++;
@@ -72,7 +69,7 @@ namespace data
 
         public void UpdateItem(int billId, FacturaDetalle updatedItem)
         {
-            var bill = _facturas.FirstOrDefault(b => b.Id == billId);
+            var bill = _collection.AsQueryable().FirstOrDefault(b => b.Id == billId);
             if (bill != null)
             {
                 var existingItem = bill.Items.FirstOrDefault(i => i.Id == updatedItem.Id);
@@ -86,7 +83,7 @@ namespace data
 
         public void RemoveItem(int billId, int itemId)
         {
-            var bill = _facturas.FirstOrDefault(b => b.Id == billId);
+            var bill = _collection.AsQueryable().FirstOrDefault(b => b.Id == billId);
             if (bill != null)
             {
                 var itemToRemove = bill.Items.FirstOrDefault(i => i.Id == itemId);
@@ -99,18 +96,18 @@ namespace data
 
         public IEnumerable<Factura> ObtenerFacturasPorIdCuenta(int idCuenta)
         {
-            return _facturas.Where(b => b.IdCuenta == idCuenta);
+            return _collection.AsQueryable().Where(b => b.IdCuenta == idCuenta);
         }
 
         public Factura ObtenerFacturaPorId(int idFactura)
         {
-            return _facturas.FirstOrDefault(b => b.Id == idFactura);
+            return _collection.AsQueryable().FirstOrDefault(b => b.Id == idFactura);
         }
 
         public object MarcarFacturaComoPaga(int idFactura)
         {
             var update = Builders<Factura>.Update.Set(b => b.Estado, "Pago");
-            _collection.UpdateOne(b => b.Id == idFactura, update);
+            _collection.UpdateOneAsync(b => b.Id == idFactura, update);
             return ObtenerFacturaPorId(idFactura);
         }
     }

@@ -3,44 +3,48 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using context.ordenes;
 using context.productos;
+using data.interfaces;
 using MongoDB.Driver;
 
 namespace data
 {
-    public class ProductoRepository
+    public class ProductoRepository : IProductoRepository
     {
-        private readonly IMongoCollection<Producto> _productos;
+        IMongoCollection<Producto>? _collection;
 
-        public ProductoRepository(IMongoClient client, string databaseName, string collectionName = "Productos")
+        public ProductoRepository()
         {
-            var database = client.GetDatabase(databaseName);
-            _productos = database.GetCollection<Producto>(collectionName);
+            var connectionString = "mongodb://localhost:27017";
+            var client = new MongoClient(connectionString);
+            var database = client.GetDatabase("mydatabase");
+            _collection = database.GetCollection<Producto>("facturas");
         }
 
-        public async Task<List<Producto>> GetAllAsync()
+        public async Task<List<Producto>> GetAll()
         {
-            return await _productos.Find(_ => true).ToListAsync();
+            return await _collection.Find(_ => true).ToListAsync();
         }
 
-        public async Task<Producto> GetByIdAsync(string id)
+        public async Task<Producto> GetById(string id)
         {
-            return await _productos.Find(p => p.Id == id).FirstOrDefaultAsync();
+            return await _collection.Find(p => p.Id == id).FirstOrDefaultAsync();
         }
 
-        public async Task CreateAsync(Producto product)
+        public async Task Create(Producto product)
         {
-            await _productos.InsertOneAsync(product);
+            await _collection.InsertOneAsync(product);
         }
 
-        public async Task UpdateAsync(string id, Producto product)
+        public async Task Update(string id, Producto product)
         {
-            await _productos.ReplaceOneAsync(p => p.Id == id, product);
+            await _collection.ReplaceOneAsync(p => p.Id == id, product);
         }
 
-        public async Task DeleteAsync(string id)
+        public async Task Delete(string id)
         {
-            await _productos.DeleteOneAsync(p => p.Id == id);
+            await _collection.DeleteOneAsync(p => p.Id == id);
         }
     }
 }

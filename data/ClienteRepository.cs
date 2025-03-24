@@ -4,18 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using context.clientes;
+using context.empleados;
 using context.facturas;
 using context.ordenes;
+using data.interfaces;
 using MongoDB.Driver;
 
 namespace data
 {
-    public class ClienteRepository
+    public class ClienteRepository: IClienteRepository
     {
         private static int _nextId = 1;
         private static int _nextItemId = 1;
-        List<Cliente> _clientes;
         IMongoCollection<Cliente>? _collection;
+
+        public ClienteRepository()
+        {
+            var connectionString = "mongodb://localhost:27017";
+            var client = new MongoClient(connectionString);
+            var database = client.GetDatabase("mydatabase");
+            _collection = database.GetCollection<Cliente>("facturas");
+        }
         public void Delete(int id)
         {
             throw new NotImplementedException();
@@ -39,7 +48,7 @@ namespace data
         public void Add(Cliente cliente)
         {
             cliente.Id = _nextId++;
-            _clientes.Add(cliente);
+            _collection.InsertOneAsync(cliente);
         }
     }
 }

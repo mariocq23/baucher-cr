@@ -2,6 +2,7 @@ using context.clientes;
 using context.facturas;
 using context.ordenes;
 using data;
+using data.interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace baucher_api.controladores
@@ -11,10 +12,10 @@ namespace baucher_api.controladores
     public class ClientesController : ControllerBase
     {
         // In a real application, you would use a database.
-        private readonly ClienteRepository _clienteRepository;
+        private readonly IClienteRepository _clienteRepository;
 
 
-        public ClientesController(ClienteRepository clienteRepository)
+        public ClientesController(IClienteRepository clienteRepository)
         {
             _clienteRepository = clienteRepository;
         }
